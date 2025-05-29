@@ -60,8 +60,8 @@ const WhyUs = () => {
                 <li className="flex items-start">
                   <Lock className="text-green-600 mr-3 mt-1 flex-shrink-0" size={20} />
                   <div>
-                    <p className="font-semibold">Security & compliance ready</p>
-                    <p className="text-gray-600 text-sm">Following best practices from regulated industries</p>
+                    <p className="font-semibold">Production-ready architecture</p>
+                    <p className="text-gray-600 text-sm">Built to handle real users from day one</p>
                   </div>
                 </li>
                 <li className="flex items-start">

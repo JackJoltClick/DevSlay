@@ -7,7 +7,7 @@ const FAQ = () => {
   const faqs = [
     {
       q: "How can you build an MVP in just 8 days?",
-      a: "We combine cutting-edge AI agents (Claude, GPT-4) with senior engineers who've built systems at global fintech firms and S&P 500 companies. AI handles the heavy lifting while humans ensure quality, security, and scalability. We've built 50+ MVPs this way."
+      a: "We combine cutting-edge AI agents (Claude, GPT-4) with senior engineers who've built systems for millions of users at Fortune 500 companies. AI handles the heavy lifting while humans ensure quality, performance, and scalability."
     },
     {
       q: "Is this just another no-code tool?",
@@ -23,7 +23,7 @@ const FAQ = () => {
     },
     {
       q: "Can I launch with this? Is it production-ready?",
-      a: "Yes. Our engineers have deployed systems serving millions at regulated financial institutions. Your MVP will have proper security, scalable architecture, monitoring, and everything needed for a successful launch."
+      a: "Yes. Our engineers have deployed systems serving millions of users at major financial and tech companies. Your MVP will have scalable architecture, monitoring, and everything needed for a successful launch."
     },
     {
       q: "Can you build complex SaaS products?",
@@ -34,8 +34,8 @@ const FAQ = () => {
       a: "We're stack-agnostic but specialize in React/Next.js, Node.js, Python/Django, PostgreSQL, and cloud platforms (AWS, Vercel). We match the stack to your needs and can integrate with any existing systems."
     },
     {
-      q: "How do you ensure security and compliance?",
-      a: "Our senior engineers have built systems for regulated industries including fintech and healthcare. We implement security best practices, conduct code reviews, and can build to meet compliance requirements (GDPR, SOC 2, HIPAA, etc.)."
+      q: "What about performance and scalability?",
+      a: "Our senior engineers have built high-scale systems for major financial and tech companies. We implement performance best practices, conduct thorough code reviews, and architect systems that can grow with your business."
     }
   ];
 

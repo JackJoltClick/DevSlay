@@ -4,8 +4,8 @@ const RiskReversal = () => {
   const guarantees = [
     {
       icon: <Shield className="text-green-600" size={32} />,
-      title: "30-Day Money Back Guarantee",
-      description: "Not happy with your MVP? Get a full refund, no questions asked. Keep the code anyway."
+      title: "Quality Commitment",
+      description: "We stand behind our work. If we don't deliver what we promise, we'll make it right."
     },
     {
       icon: <RefreshCw className="text-blue-600" size={32} />,
@@ -30,10 +30,10 @@ const RiskReversal = () => {
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold mb-6">
-              We Take All The Risk
+              Our Commitments to You
             </h2>
             <p className="text-xl text-gray-600">
-              We're so confident in our process, you have nothing to lose and everything to gain.
+              We're confident in our process and stand behind every project we deliver.
             </p>
           </div>
 
@@ -61,11 +61,11 @@ const RiskReversal = () => {
             <div className="space-y-4">
               <div className="flex items-start space-x-3">
                 <Check className="text-green-500 flex-shrink-0 mt-1" size={20} />
-                <p><strong>Ship on time:</strong> Your MVP will be delivered exactly when promised, or you get a full refund plus $1,000 for your trouble.</p>
+                <p><strong>Ship on time:</strong> Your MVP will be delivered exactly when promised. We stick to our commitments.</p>
               </div>
               <div className="flex items-start space-x-3">
                 <Check className="text-green-500 flex-shrink-0 mt-1" size={20} />
-                <p><strong>Production quality:</strong> Code will pass any technical due diligence. We've helped clients raise over $14M.</p>
+                <p><strong>Production quality:</strong> Code that's ready for real users and built to scale with your business.</p>
               </div>
               <div className="flex items-start space-x-3">
                 <Check className="text-green-500 flex-shrink-0 mt-1" size={20} />
@@ -79,10 +79,10 @@ const RiskReversal = () => {
             
             <div className="mt-8 text-center">
               <button className="bg-blue-600 text-white px-8 py-4 rounded-lg text-lg font-medium hover:bg-blue-700 transition-all transform hover:scale-105 flex items-center justify-center space-x-2 mx-auto shadow-lg">
-                <span>Start Risk-Free Today</span>
+                <span>Get Started Today</span>
                 <ArrowRight size={20} />
               </button>
-              <p className="text-gray-500 text-sm mt-3">Join 52 founders who've already shipped with DevSlay</p>
+              <p className="text-gray-500 text-sm mt-3">Partner with experienced engineers who've built for millions</p>
             </div>
           </div>
         </div>

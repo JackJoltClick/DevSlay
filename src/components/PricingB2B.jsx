@@ -139,7 +139,7 @@ const PricingB2B = () => {
             <div>
               <Shield className="text-blue-600 mx-auto mb-3" size={24} />
               <h4 className="font-semibold mb-2">We Ship On Time</h4>
-              <p className="text-gray-600 text-sm">8 days means 8 days. Late delivery = full refund</p>
+              <p className="text-gray-600 text-sm">8 days means 8 days. We stick to our commitments</p>
             </div>
             <div>
               <Users className="text-green-600 mx-auto mb-3" size={24} />
