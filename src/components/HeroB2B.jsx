@@ -63,7 +63,7 @@ const HeroB2B = ({ scrollToSection }) => {
             </h1>
             
             <p className="text-lg sm:text-xl md:text-2xl text-gray-600 mb-6 sm:mb-8 max-w-4xl mx-auto leading-relaxed px-2">
-              Stop waiting months for dev teams. We combine GPT-4 + Claude with senior engineers who've built for millions of users 
+              Stop waiting months for dev teams. We combine advanced AI systems with senior engineers who've built for millions of users 
               to ship your MVP <span className="font-semibold text-gray-900">10x faster</span> than traditional development.
             </p>
 

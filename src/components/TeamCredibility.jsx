@@ -31,7 +31,7 @@ const TeamCredibility = () => {
   const capabilities = [
     {
       category: "AI & Automation",
-      skills: ["Advanced AI agent development", "Claude & GPT-4 integration", "Automated code generation", "Intelligent testing systems"]
+      skills: ["Advanced AI development", "Intelligent automation systems", "Automated code generation", "Smart testing frameworks"]
     },
     {
       category: "Enterprise Architecture", 
