@@ -40,23 +40,23 @@ const FAQ = () => {
   ];
 
   return (
-    <section id="faq" className="py-20">
+    <section id="faq" className="py-12 sm:py-16 md:py-20">
       <div className="container mx-auto px-4">
         <div className="max-w-3xl mx-auto">
-          <h2 className="text-4xl md:text-5xl font-bold text-center mb-16">Frequently Asked Questions</h2>
-          <div className="space-y-4">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-center mb-12 sm:mb-16 px-2">Frequently Asked Questions</h2>
+          <div className="space-y-3 sm:space-y-4">
             {faqs.map((faq, index) => (
               <div key={index} className="border border-gray-200 rounded-lg overflow-hidden">
                 <button
-                  className="w-full px-6 py-4 text-left flex justify-between items-center hover:bg-gray-50 transition-colors"
+                  className="w-full px-4 sm:px-6 py-3 sm:py-4 text-left flex justify-between items-center hover:bg-gray-50 transition-colors"
                   onClick={() => setOpenFaq(openFaq === index ? null : index)}
                 >
-                  <span className="font-medium text-lg">{faq.q}</span>
-                  {openFaq === index ? <ChevronUp size={20} /> : <ChevronDown size={20} />}
+                  <span className="font-medium text-base sm:text-lg pr-4">{faq.q}</span>
+                  {openFaq === index ? <ChevronUp size={18} className="sm:w-5 sm:h-5 flex-shrink-0" /> : <ChevronDown size={18} className="sm:w-5 sm:h-5 flex-shrink-0" />}
                 </button>
                 {openFaq === index && (
-                  <div className="px-6 pb-4">
-                    <p className="text-gray-600">{faq.a}</p>
+                  <div className="px-4 sm:px-6 pb-3 sm:pb-4">
+                    <p className="text-gray-600 text-sm sm:text-base leading-relaxed">{faq.a}</p>
                   </div>
                 )}
               </div>
