@@ -77,7 +77,7 @@ const PricingB2B = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 sm:gap-8 max-w-7xl mx-auto mb-12 sm:mb-16">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 sm:gap-8 max-w-7xl mx-auto mb-12 sm:mb-16">
           {packages.map((pkg, index) => (
             <div key={index} className={`relative bg-white rounded-xl overflow-hidden border-2 transition-all hover:shadow-xl ${
               pkg.popular ? 'border-blue-600 shadow-lg' : 'border-gray-200 hover:border-gray-300'
@@ -120,7 +120,7 @@ const PricingB2B = () => {
                   <p className="text-xs sm:text-sm font-medium text-blue-900">{pkg.included}</p>
                 </div>
 
-                <button className={`w-full py-3 sm:py-4 rounded-lg font-medium transition-all flex items-center justify-center space-x-2 text-sm sm:text-base ${
+                <button className={`w-full py-4 sm:py-4 rounded-lg font-medium transition-all flex items-center justify-center space-x-2 text-sm sm:text-base min-h-[50px] ${
                   pkg.popular 
                     ? 'bg-blue-600 text-white hover:bg-blue-700' 
                     : 'bg-gray-900 text-white hover:bg-gray-800'

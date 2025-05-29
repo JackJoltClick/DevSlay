@@ -48,10 +48,10 @@ const FAQ = () => {
             {faqs.map((faq, index) => (
               <div key={index} className="border border-gray-200 rounded-lg overflow-hidden">
                 <button
-                  className="w-full px-4 sm:px-6 py-3 sm:py-4 text-left flex justify-between items-center hover:bg-gray-50 transition-colors"
+                  className="w-full px-4 sm:px-6 py-4 sm:py-4 text-left flex justify-between items-center hover:bg-gray-50 transition-colors min-h-[60px] sm:min-h-[auto]"
                   onClick={() => setOpenFaq(openFaq === index ? null : index)}
                 >
-                  <span className="font-medium text-base sm:text-lg pr-4">{faq.q}</span>
+                  <span className="font-medium text-base sm:text-lg pr-4 leading-snug">{faq.q}</span>
                   {openFaq === index ? <ChevronUp size={18} className="sm:w-5 sm:h-5 flex-shrink-0" /> : <ChevronDown size={18} className="sm:w-5 sm:h-5 flex-shrink-0" />}
                 </button>
                 {openFaq === index && (

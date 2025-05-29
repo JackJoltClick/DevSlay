@@ -87,21 +87,21 @@ const HeroB2B = ({ scrollToSection }) => {
             </div>
 
             {/* CTAs */}
-            <div className="flex flex-col gap-4 sm:gap-6 justify-center mb-8 sm:mb-10 px-4">
-              <button className="bg-blue-600 text-white px-6 py-3 sm:px-8 sm:py-4 rounded-lg text-base sm:text-lg font-medium hover:bg-blue-700 transition-all flex items-center justify-center space-x-2 shadow-lg w-full sm:w-auto">
+            <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 justify-center mb-8 sm:mb-10 px-4">
+              <button className="bg-blue-600 text-white px-6 py-4 sm:px-8 sm:py-4 rounded-lg text-base sm:text-lg font-medium hover:bg-blue-700 transition-all flex items-center justify-center space-x-2 shadow-lg w-full sm:w-auto min-h-[50px] sm:min-h-[auto]">
                 <span>Get Your MVP Built</span>
                 <ArrowRight size={18} className="sm:w-5 sm:h-5" />
               </button>
               <button 
                 onClick={() => scrollToSection('methodology')} 
-                className="border-2 border-gray-300 px-6 py-3 sm:px-8 sm:py-4 rounded-lg text-base sm:text-lg font-medium hover:border-gray-400 transition-colors w-full sm:w-auto"
+                className="border-2 border-gray-300 px-6 py-4 sm:px-8 sm:py-4 rounded-lg text-base sm:text-lg font-medium hover:border-gray-400 transition-colors w-full sm:w-auto min-h-[50px] sm:min-h-[auto]"
               >
                 See How It Works
               </button>
             </div>
 
             {/* Note */}
-            <p className="text-gray-500 text-xs sm:text-sm px-4 text-center">
+            <p className="text-gray-500 text-xs sm:text-sm px-4 text-center leading-relaxed">
               Free consultation • No commitment • We'll scope your project in 15 minutes
             </p>
           </div>

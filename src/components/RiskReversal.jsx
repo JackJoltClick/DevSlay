@@ -38,7 +38,7 @@ const RiskReversal = () => {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6 md:gap-8 mb-8 sm:mb-12">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 sm:gap-6 md:gap-8 mb-8 sm:mb-12">
             {guarantees.map((guarantee, index) => (
               <div key={index} className="bg-white rounded-xl p-4 sm:p-6 shadow-lg">
                 <div className="flex items-start space-x-3 sm:space-x-4">
@@ -79,7 +79,7 @@ const RiskReversal = () => {
             </div>
             
             <div className="mt-6 sm:mt-8 text-center">
-              <button className="bg-blue-600 text-white px-6 py-3 sm:px-8 sm:py-4 rounded-lg text-base sm:text-lg font-medium hover:bg-blue-700 transition-all transform hover:scale-105 flex items-center justify-center space-x-2 mx-auto shadow-lg w-full sm:w-auto">
+              <button className="bg-blue-600 text-white px-6 py-4 sm:px-8 sm:py-4 rounded-lg text-base sm:text-lg font-medium hover:bg-blue-700 transition-all transform hover:scale-105 flex items-center justify-center space-x-2 mx-auto shadow-lg w-full sm:w-auto min-h-[50px] sm:min-h-[auto]">
                 <span>Get Started Today</span>
                 <ArrowRight size={18} className="sm:w-5 sm:h-5" />
               </button>
