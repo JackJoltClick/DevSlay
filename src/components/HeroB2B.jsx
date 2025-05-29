@@ -57,7 +57,7 @@ const HeroB2B = ({ scrollToSection }) => {
 
           {/* Main Hero Content */}
           <div className="text-center">
-            <h1 className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-bold mb-6 sm:mb-8 leading-tight px-2">
+            <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-6 sm:mb-8 leading-tight px-2">
               From Idea to Launch
               <span className="block text-blue-600">in 8 Days</span>
             </h1>
