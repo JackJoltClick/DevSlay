@@ -24,7 +24,7 @@ const WhyUs = () => {
                   <Zap className="text-blue-600 mr-2 sm:mr-3 mt-1 flex-shrink-0" size={18} />
                   <div>
                     <p className="font-semibold text-sm sm:text-base">Writes 1000s of lines per day</p>
-                    <p className="text-gray-600 text-xs sm:text-sm">Next-gen AI systems generate production-ready code at superhuman speed</p>
+                    <p className="text-gray-600 text-xs sm:text-sm">Claude & GPT-4 agents generate production-ready code at superhuman speed</p>
                   </div>
                 </li>
                 <li className="flex items-start">
