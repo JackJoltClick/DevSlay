@@ -5,7 +5,7 @@ const Pricing = () => {
     {
       name: "SlayLite",
       price: "$12,000",
-      duration: "8 days",
+      duration: "10 days",
       features: [
         "Full-stack SaaS MVP",
         "AI-powered development",

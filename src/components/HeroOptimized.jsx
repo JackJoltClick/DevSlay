@@ -39,7 +39,7 @@ const HeroOptimized = ({ scrollToSection }) => {
           {/* Main Hero Content */}
           <div className="text-center">
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight">
-              Launch Your SaaS in 8 Days
+              Launch Your SaaS in 10 Days
               <span className="block text-blue-600">Or Your Money Back</span>
             </h1>
             

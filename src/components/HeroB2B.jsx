@@ -19,7 +19,7 @@ const HeroB2B = ({ scrollToSection }) => {
               </div>
               <div className="flex items-center gap-2">
                 <CheckCircle2 size={16} className="text-green-400" />
-                <span className="text-sm">Ready in 8 Days</span>
+                <span className="text-sm">Ready in 10 Days</span>
               </div>
             </div>
           </div>
@@ -38,7 +38,7 @@ const HeroB2B = ({ scrollToSection }) => {
             <div>•</div>
             <div className="flex items-center gap-2">
               <CheckCircle2 size={16} className="text-green-400" />
-              <span>Launch-Ready in 8 Days</span>
+              <span>Launch-Ready in 10 Days</span>
             </div>
           </div>
         </div>
@@ -59,7 +59,7 @@ const HeroB2B = ({ scrollToSection }) => {
           <div className="text-center">
             <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-6 sm:mb-8 leading-tight px-2">
               From Idea to Launch
-              <span className="block text-blue-600">in 8 Days</span>
+              <span className="block text-blue-600">in 10 Days</span>
             </h1>
             
             <p className="text-lg sm:text-xl md:text-2xl text-gray-600 mb-6 sm:mb-8 max-w-4xl mx-auto leading-relaxed px-2">

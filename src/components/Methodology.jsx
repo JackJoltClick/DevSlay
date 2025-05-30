@@ -65,7 +65,7 @@ const Methodology = () => {
     {
       phase: "04",
       title: "Deployment & Transfer",
-      duration: "Day 8",
+      duration: "Day 10",
       description: "Production deployment and complete knowledge transfer",
       activities: [
         "Production environment setup",
@@ -94,7 +94,7 @@ const Methodology = () => {
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               A systematic approach combining AI acceleration with human expertise 
-              to deliver enterprise-grade results in 8 days.
+              to deliver enterprise-grade results in 10 days.
             </p>
           </div>
 
@@ -106,7 +106,7 @@ const Methodology = () => {
                 <div className="text-gray-600">Phase Process</div>
               </div>
               <div className="text-center mb-6 md:mb-0">
-                <div className="text-3xl font-bold text-green-600 mb-2">8</div>
+                <div className="text-3xl font-bold text-green-600 mb-2">10</div>
                 <div className="text-gray-600">Day Delivery</div>
               </div>
               <div className="text-center mb-6 md:mb-0">

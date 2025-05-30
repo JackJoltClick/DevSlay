@@ -7,7 +7,7 @@ const PricingB2B = () => {
       name: "MVP Sprint",
       subtitle: "Get to market fast",
       price: "$12,000",
-      duration: "8 days",
+      duration: "10 days",
       description: "Perfect for testing your idea with real users and getting early feedback",
       features: [
         "Full-stack web application",
@@ -140,7 +140,7 @@ const PricingB2B = () => {
             <div className="p-3 sm:p-0">
               <Shield className="text-blue-600 mx-auto mb-2 sm:mb-3" size={20} />
               <h4 className="font-semibold mb-2 text-sm sm:text-base">We Ship On Time</h4>
-              <p className="text-gray-600 text-xs sm:text-sm">8 days means 8 days. We stick to our commitments</p>
+              <p className="text-gray-600 text-xs sm:text-sm">10 days means 10 days. We stick to our commitments</p>
             </div>
             <div className="p-3 sm:p-0">
               <Users className="text-green-600 mx-auto mb-2 sm:mb-3" size={20} />

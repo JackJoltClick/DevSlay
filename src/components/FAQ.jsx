@@ -6,7 +6,7 @@ const FAQ = () => {
 
   const faqs = [
     {
-      q: "How can you build an MVP in just 8 days?",
+      q: "How can you build an MVP in just 10 days?",
       a: "We combine cutting-edge AI agents (Anthropic-powered AI, GPT-4) with senior engineers who've built systems for millions of users at Fortune 500 companies. AI agents handle the heavy lifting while humans ensure quality, performance, and scalability."
     },
     {

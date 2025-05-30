@@ -6,7 +6,7 @@ const CaseStudies = () => {
       company: "TalentMatch AI",
       industry: "B2B Recruiting SaaS",
       challenge: "Needed to launch before Series A to prove market traction",
-      timeline: "8 days",
+      timeline: "10 days",
       outcomes: [
         { metric: "2,000+", label: "Enterprise users acquired", icon: <Users size={16} /> },
         { metric: "$2.5M", label: "Series A raised", icon: <DollarSign size={16} /> },

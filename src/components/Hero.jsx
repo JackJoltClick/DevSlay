@@ -9,7 +9,7 @@ const Hero = ({ scrollToSection }) => {
           <span className="text-sm font-medium">AI + Elite Engineering Teams</span>
         </div>
         <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
-          Your MVP. Delivered in <span className="text-blue-600">8 Days.</span>
+          Your MVP. Delivered in <span className="text-blue-600">10 Days.</span>
         </h1>
         <p className="text-xl md:text-2xl text-gray-600 mb-8 max-w-3xl mx-auto">
           Powered by AI + Engineers who've built at global fintech firms, high-growth startups, and top-tier institutions.

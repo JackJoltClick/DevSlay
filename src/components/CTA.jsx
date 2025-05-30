@@ -6,7 +6,7 @@ const CTA = () => {
       <div className="container mx-auto px-4 text-center">
         <h2 className="text-4xl md:text-5xl font-bold mb-6">Ready to Ship Your Vision?</h2>
         <p className="text-xl mb-8 opacity-90 max-w-2xl mx-auto">
-          Stop burning cash on slow development. Get your MVP to market in 8 days and start validating with real customers.
+          Stop burning cash on slow development. Get your MVP to market in 10 days and start validating with real customers.
         </p>
         <div className="flex flex-col md:flex-row gap-4 justify-center">
           <button className="bg-white text-blue-600 px-8 py-4 rounded-lg text-lg font-medium hover:bg-gray-100 transition-colors flex items-center justify-center space-x-2">

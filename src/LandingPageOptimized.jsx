@@ -92,7 +92,7 @@ const LandingPageOptimized = () => {
             <div className="text-center">
               <h3 className="text-2xl font-bold mb-4 text-red-600">Wait! Don't Leave Empty-Handed</h3>
               <p className="text-gray-700 mb-6">
-                Get our free "MVP Success Blueprint" - the exact framework we use to ship production-ready MVPs in 8 days.
+                Get our free "MVP Success Blueprint" - the exact framework we use to ship production-ready MVPs in 10 days.
               </p>
               
               <div className="space-y-4">

@@ -27,7 +27,7 @@ const PricingOptimized = () => {
       tagline: "Perfect for validation",
       price: "$8,999",
       originalPrice: "$12,000",
-      duration: "8 days",
+      duration: "10 days",
       spots: "3 spots left",
       features: [
         "Full-stack SaaS MVP",

@@ -38,7 +38,7 @@ const LandingPageB2B = () => {
           </h2>
           <p className="text-xl mb-8 opacity-90 max-w-3xl mx-auto">
             You've read this far, which means you're serious about shipping. 
-            Let's turn your idea into something people can actually use—in 8 days, not 8 months.
+            Let's turn your idea into something people can actually use—in 10 days, not 10 months.
           </p>
           <div className="flex flex-col sm:flex-row gap-6 justify-center">
             <button 
