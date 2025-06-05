@@ -7,11 +7,12 @@ const Pricing = () => {
       price: "$15,000",
       duration: "10 days",
       features: [
-        "Full-stack web application",
-        "AI-accelerated development",
+        "Custom-coded full-stack application",
+        "AI-accelerated development (no templates)",
+        "Modern tech stack (React, Node.js, PostgreSQL)",
         "Core features implementation",
-        "Basic deployment setup",
-        "Source code ownership",
+        "Professional deployment setup",
+        "Complete source code ownership",
         "30-day bug support"
       ],
       notIncluded: ["Payment processing", "Admin dashboard"],
@@ -24,11 +25,11 @@ const Pricing = () => {
       duration: "14 days",
       features: [
         "Everything in SlayLite",
-        "Payment processing integration",
-        "User authentication system",
-        "Admin dashboard",
-        "Basic CI/CD setup",
-        "API endpoints",
+        "Custom payment processing integration (Stripe)",
+        "Secure user authentication system",
+        "Tailored admin dashboard",
+        "Professional CI/CD pipeline",
+        "RESTful API endpoints",
         "60-day support period"
       ],
       notIncluded: ["Custom integrations", "Ongoing maintenance"],
@@ -41,12 +42,12 @@ const Pricing = () => {
       duration: "Custom",
       features: [
         "Everything in SlayCore",
-        "Complex feature development",
-        "Multiple integrations",
-        "Dedicated project team",
+        "Bespoke feature development",
+        "Enterprise-grade integrations",
+        "Dedicated development team",
         "Weekly progress meetings",
         "Priority support",
-        "Custom architecture design",
+        "Custom architecture & tech stack",
         "Flexible payment terms"
       ],
       notIncluded: [],
@@ -59,8 +60,8 @@ const Pricing = () => {
     <section id="packages" className="py-20 bg-gray-50">
       <div className="container mx-auto px-4">
         <div className="max-w-3xl mx-auto text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold mb-6">Choose Your Launch Speed</h2>
-          <p className="text-xl text-gray-600">Transparent pricing. No hidden fees. Just exceptional value.</p>
+          <h2 className="text-4xl md:text-5xl font-bold mb-6">Transparent Pricing</h2>
+          <p className="text-xl text-gray-600">Professional development at fair prices. Choose the package that fits your needs.</p>
         </div>
         <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
           {packages.map((pkg, index) => (

@@ -8,14 +8,15 @@ const PricingB2B = () => {
       subtitle: "Get to market fast",
       price: "$15,000",
       duration: "10 days",
-      description: "Perfect for testing your idea with real users",
+      description: "Everything you need to validate your idea with real users.",
       features: [
-        "Full-stack web application",
+        "Custom-coded full-stack application",
+        "Latest tech stack (React, Node.js, PostgreSQL)",
         "Core features implementation",
-        "User authentication",
-        "Database setup",
-        "Basic deployment",
-        "Source code & documentation",
+        "Secure user authentication",
+        "Professional database design",
+        "Cloud deployment (no shared hosting)",
+        "Complete source code & documentation",
         "30 days of bug fixes"
       ],
       included: "Initial project consultation",
@@ -28,15 +29,15 @@ const PricingB2B = () => {
       subtitle: "Everything to start selling",
       price: "$30,000",
       duration: "14 days",
-      description: "Complete solution to start accepting customers",
+      description: "Production-ready application with payment processing and admin tools.",
       features: [
         "Everything in MVP Sprint",
-        "Payment processing (Stripe)",
-        "Admin dashboard",
-        "API development",
-        "CI/CD pipeline",
-        "Performance optimization",
-        "60 days of support"
+        "Custom payment processing (Stripe)",
+        "Tailored admin dashboard",
+        "RESTful API development",
+        "Professional CI/CD pipeline",
+        "Performance optimization & testing",
+        "60 days of support & iterations"
       ],
       included: "Launch strategy session",
       cta: "Go to Market",
@@ -49,15 +50,16 @@ const PricingB2B = () => {
       subtitle: "Complex custom solutions",
       price: "$100K+",
       duration: "3-6 months",
-      description: "For established businesses needing custom development",
+      description: "Custom development for complex requirements and scale.",
       features: [
         "Everything in Launch Ready",
-        "Custom feature development",
+        "Bespoke feature development",
+        "Enterprise-grade architecture",
         "Dedicated development team",
         "Weekly planning sessions",
         "Priority support",
-        "Multiple integrations",
-        "Ongoing iterations",
+        "Complex third-party integrations",
+        "Ongoing development cycles",
         "Flexible payment options"
       ],
       included: "Technical roadmap & architecture planning",
@@ -71,10 +73,10 @@ const PricingB2B = () => {
     <section id="investment" className="py-12 sm:py-16 md:py-20 bg-white">
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto text-center mb-12 sm:mb-16">
-          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 sm:mb-6 px-2">Simple, Honest Pricing</h2>
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 sm:mb-6 px-2">Quality Development, Delivered Fast</h2>
           <p className="text-lg sm:text-xl text-gray-600 px-2">
-            No hidden fees, no surprises. You get exactly what's listed, 
-            plus you own all the code forever.
+            Senior engineers using AI to deliver custom-coded applications in 10 days.
+            <span className="font-semibold text-gray-900"> No templates. No no-code. Just professional development.</span>
           </p>
         </div>
 
@@ -134,27 +136,50 @@ const PricingB2B = () => {
           ))}
         </div>
 
-        {/* Guarantees */}
-        <div className="bg-gray-50 rounded-xl p-6 sm:p-8 max-w-4xl mx-auto">
-          <h3 className="text-lg sm:text-xl font-semibold text-center mb-4 sm:mb-6 px-2">What You're Actually Getting</h3>
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 sm:gap-6 text-center">
-            <div className="p-3 sm:p-0">
-              <Shield className="text-blue-600 mx-auto mb-2 sm:mb-3" size={20} />
-              <h4 className="font-semibold mb-2 text-sm sm:text-base">We Ship On Time</h4>
-              <p className="text-gray-600 text-xs sm:text-sm">10 days means 10 days. We stick to our commitments</p>
+        {/* Value Props */}
+        <div className="bg-blue-50 rounded-xl p-6 sm:p-8 max-w-4xl mx-auto mb-12">
+          <h3 className="text-lg sm:text-xl font-semibold text-center mb-6 px-2">How We Deliver Quality in 10 Days</h3>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div className="text-center">
+              <p className="text-3xl font-bold text-blue-600 mb-2">AI + Human</p>
+              <p className="text-sm text-gray-700">AI handles repetitive tasks</p>
+              <p className="text-xs text-gray-500 mt-1">Engineers ensure quality</p>
             </div>
-            <div className="p-3 sm:p-0">
-              <Users className="text-green-600 mx-auto mb-2 sm:mb-3" size={20} />
-              <h4 className="font-semibold mb-2 text-sm sm:text-base">You Own Everything</h4>
-              <p className="text-gray-600 text-xs sm:text-sm">Code, database, domains—it's all yours forever</p>
+            <div className="text-center">
+              <p className="text-3xl font-bold text-blue-600 mb-2">Proven Stack</p>
+              <p className="text-sm text-gray-700">Latest tech stack, custom coded</p>
+              <p className="text-xs text-gray-500 mt-1">No templates or no-code tools</p>
             </div>
-            <div className="p-3 sm:p-0 sm:col-span-2 md:col-span-1">
-              <Check className="text-purple-600 mx-auto mb-2 sm:mb-3" size={20} />
-              <h4 className="font-semibold mb-2 text-sm sm:text-base">Actually Production-Ready</h4>
-              <p className="text-gray-600 text-xs sm:text-sm">Not a prototype. Code that can handle real users</p>
+            <div className="text-center">
+              <p className="text-3xl font-bold text-blue-600 mb-2">Clear Scope</p>
+              <p className="text-sm text-gray-700">Focused on core features</p>
+              <p className="text-xs text-gray-500 mt-1">No feature creep</p>
             </div>
           </div>
         </div>
+
+        {/* Guarantees */}
+        <div className="bg-gray-50 rounded-xl p-6 sm:p-8 max-w-4xl mx-auto">
+          <h3 className="text-lg sm:text-xl font-semibold text-center mb-4 sm:mb-6 px-2">Our Commitment to You</h3>
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 sm:gap-6 text-center">
+            <div className="p-3 sm:p-0">
+              <Shield className="text-blue-600 mx-auto mb-2 sm:mb-3" size={20} />
+              <h4 className="font-semibold mb-2 text-sm sm:text-base">Quality Guaranteed</h4>
+              <p className="text-gray-600 text-xs sm:text-sm">Production-ready code, always</p>
+            </div>
+            <div className="p-3 sm:p-0">
+              <Users className="text-green-600 mx-auto mb-2 sm:mb-3" size={20} />
+              <h4 className="font-semibold mb-2 text-sm sm:text-base">Your Code, Your IP</h4>
+              <p className="text-gray-600 text-xs sm:text-sm">Full ownership and documentation</p>
+            </div>
+            <div className="p-3 sm:p-0 sm:col-span-2 md:col-span-1">
+              <Check className="text-purple-600 mx-auto mb-2 sm:mb-3" size={20} />
+              <h4 className="font-semibold mb-2 text-sm sm:text-base">Ongoing Support</h4>
+              <p className="text-gray-600 text-xs sm:text-sm">We're here after launch too</p>
+            </div>
+          </div>
+        </div>
+        
       </div>
     </section>
   );

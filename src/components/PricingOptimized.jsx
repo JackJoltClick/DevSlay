@@ -30,16 +30,17 @@ const PricingOptimized = () => {
       duration: "10 days",
       spots: "5 spots left",
       features: [
-        "Full-stack SaaS MVP",
+        "Custom-coded SaaS MVP",
+        "Modern tech stack (React, Node.js)",
         "AI-accelerated development",
         "Core features only",
-        "Basic deployment",
-        "Source code ownership",
+        "Professional deployment",
+        "Complete source code ownership",
         "30-day bug support"
       ],
       notIncluded: ["Payment processing", "Admin panel"],
       cta: "Claim Your Spot",
-      savings: "Save $10,002",
+      savings: "vs. UK agencies",
       popular: false
     },
     {
@@ -51,19 +52,19 @@ const PricingOptimized = () => {
       spots: "3 spots left",
       features: [
         "Everything in SlayLite",
-        "Payment processing setup",
-        "User authentication",
-        "Admin dashboard",
-        "Basic CI/CD pipeline",
-        "60-day support",
-        "API endpoints",
-        "Performance optimization"
+        "Custom payment processing setup",
+        "Secure user authentication",
+        "Tailored admin dashboard",
+        "Professional CI/CD pipeline",
+        "RESTful API endpoints",
+        "Performance optimization",
+        "60-day support"
       ],
       notIncluded: ["Complex features"],
       cta: "Start Building Today",
-      savings: "Save $20,002",
+      savings: "vs. US agencies",
       popular: true,
-      badge: "BEST VALUE"
+      badge: "RECOMMENDED"
     },
     {
       name: "SlayElite",
@@ -74,12 +75,12 @@ const PricingOptimized = () => {
       spots: "By application",
       features: [
         "Everything in SlayCore",
-        "Custom development",
-        "Multiple integrations",
+        "Bespoke development",
+        "Enterprise integrations",
         "Dedicated team",
         "Weekly meetings",
         "Priority support",
-        "Custom architecture",
+        "Custom architecture & stack",
         "Flexible terms"
       ],
       notIncluded: [],
@@ -96,7 +97,7 @@ const PricingOptimized = () => {
           <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-4">
             <div className="flex items-center justify-center space-x-2 text-yellow-800">
               <Flame className="text-orange-500" size={20} />
-              <span className="font-semibold">February Special Pricing Ends In:</span>
+              <span className="font-semibold">Limited Spots at Agency-Beating Prices:</span>
               <div className="flex space-x-2 font-mono text-lg">
                 <span>{String(timeLeft.hours).padStart(2, '0')}h</span>
                 <span>:</span>
@@ -109,10 +110,10 @@ const PricingOptimized = () => {
         </div>
 
         <div className="max-w-3xl mx-auto text-center mb-12">
-          <h2 className="text-4xl md:text-5xl font-bold mb-6">Simple, Transparent Pricing</h2>
+          <h2 className="text-4xl md:text-5xl font-bold mb-6">Professional Development at Fair Prices</h2>
           <p className="text-xl text-gray-600">
-            Choose your launch speed. Change or cancel anytime. 
-            <span className="font-semibold text-gray-900"> 30-day money-back guarantee.</span>
+            Quality code delivered fast by experienced engineers.
+            <span className="font-semibold text-gray-900"> Custom code, not templates.</span>
           </p>
         </div>
 
