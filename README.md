@@ -1,6 +1,6 @@
 # DevSlay Landing Page
 
-A high-converting landing page for DevSlay - an AI-powered dev shop that builds MVPs in 8 days.
+A high-converting landing page for DevSlay - an AI-powered dev shop that builds MVPs in 10 days.
 
 ## Quick Start
 
