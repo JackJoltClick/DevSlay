@@ -7,15 +7,14 @@ const Pricing = () => {
       price: "$15,000",
       duration: "10 days",
       features: [
-        "Full-stack SaaS MVP",
-        "AI-powered development by GPT-4 & Anthropic agents",
-        "Senior engineer oversight & quality assurance",
-        "Professional deployment setup",
-        "Complete source code ownership",
-        "GitHub repository with documentation",
-        "45-day bug support & minor iterations"
+        "Full-stack web application",
+        "AI-accelerated development",
+        "Core features implementation",
+        "Basic deployment setup",
+        "Source code ownership",
+        "30-day bug support"
       ],
-      notIncluded: ["Advanced integrations", "Custom AI training"],
+      notIncluded: ["Payment processing", "Admin dashboard"],
       cta: "Start Your MVP",
       popular: false
     },
@@ -25,17 +24,15 @@ const Pricing = () => {
       duration: "14 days",
       features: [
         "Everything in SlayLite",
-        "Enterprise-grade architecture & scalability",
-        "Advanced authentication & payment processing",
-        "Custom admin dashboard with analytics",
-        "Professional CI/CD pipeline & DevOps setup",
-        "API development for third-party integrations",
-        "Performance optimization & load testing",
-        "90-day support with unlimited iterations",
-        "Technical strategy & growth consultation"
+        "Payment processing integration",
+        "User authentication system",
+        "Admin dashboard",
+        "Basic CI/CD setup",
+        "API endpoints",
+        "60-day support period"
       ],
-      notIncluded: ["Ongoing development beyond 90 days"],
-      cta: "Scale Smart",
+      notIncluded: ["Custom integrations", "Ongoing maintenance"],
+      cta: "Build Complete MVP",
       popular: true
     },
     {
@@ -44,17 +41,16 @@ const Pricing = () => {
       duration: "Custom",
       features: [
         "Everything in SlayCore",
-        "Bespoke AI agent development & training",
-        "Complex enterprise system integrations",
-        "Dedicated team of senior engineers",
-        "Weekly executive strategy sessions",
-        "24/7 priority support with SLA",
-        "Custom architecture for specific needs",
-        "Ongoing partnership & technical leadership",
-        "Equity-friendly payment options available"
+        "Complex feature development",
+        "Multiple integrations",
+        "Dedicated project team",
+        "Weekly progress meetings",
+        "Priority support",
+        "Custom architecture design",
+        "Flexible payment terms"
       ],
       notIncluded: [],
-      cta: "Schedule Executive Briefing",
+      cta: "Let's Talk",
       popular: false
     }
   ];
