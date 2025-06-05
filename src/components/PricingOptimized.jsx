@@ -23,24 +23,24 @@ const PricingOptimized = () => {
 
   const packages = [
     {
-      name: "SlayLite",
-      tagline: "MVP essentials",
+      name: "Quick Revenue",
+      tagline: "Start monetizing immediately",
       price: "$14,997",
       originalPrice: "$24,999",
       duration: "10 days",
-      spots: "5 spots left",
+      spots: "Available now",
       features: [
-        "Custom-coded SaaS MVP",
+        "Revenue-ready SaaS platform",
+        "Payment processing included (Stripe)",
+        "User management & admin dashboard",
         "Modern tech stack (React, Node.js)",
-        "AI-accelerated development",
-        "Core features only",
         "Professional deployment",
         "Complete source code ownership",
-        "30-day bug support"
+        "30-day support"
       ],
-      notIncluded: ["Payment processing", "Admin panel"],
-      cta: "Claim Your Spot",
-      savings: "vs. UK agencies",
+      notIncluded: ["Advanced analytics", "Email automation"],
+      cta: "Start Making Money",
+      savings: "SAVE $10,000",
       popular: false
     },
     {
@@ -49,7 +49,7 @@ const PricingOptimized = () => {
       price: "$29,997",
       originalPrice: "$49,999",
       duration: "14 days",
-      spots: "3 spots left",
+      spots: "Most popular",
       features: [
         "Everything in SlayLite",
         "Custom payment processing setup",
@@ -62,29 +62,30 @@ const PricingOptimized = () => {
       ],
       notIncluded: ["Complex features"],
       cta: "Start Building Today",
-      savings: "vs. US agencies",
+      savings: "SAVE $20,000",
       popular: true,
-      badge: "RECOMMENDED"
+      badge: "MOST CHOSEN"
     },
     {
-      name: "SlayElite",
-      tagline: "Custom enterprise",
-      price: "$100K+",
-      originalPrice: null,
-      duration: "3+ months",
-      spots: "By application",
+      name: "Market Leader",
+      tagline: "Enterprise-grade platform",
+      price: "$74,997",
+      originalPrice: "$125,000",
+      duration: "6-8 weeks",
+      spots: "Limited availability",
       features: [
-        "Everything in SlayCore",
-        "Bespoke development",
-        "Enterprise integrations",
-        "Dedicated team",
-        "Weekly meetings",
-        "Priority support",
-        "Custom architecture & stack",
-        "Flexible terms"
+        "Everything in Investor Magnet",
+        "Multi-tenant architecture for B2B sales",
+        "Advanced integrations (CRM, ERP, SSO)",
+        "Custom reporting & business intelligence",
+        "White-label capabilities",
+        "Dedicated development team",
+        "Weekly strategy sessions",
+        "90-day unlimited iterations"
       ],
       notIncluded: [],
-      cta: "Get Quote",
+      cta: "Dominate Your Market",
+      savings: "SAVE $50,000",
       popular: false
     }
   ];

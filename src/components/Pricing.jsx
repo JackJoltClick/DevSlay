@@ -37,21 +37,21 @@ const Pricing = () => {
       popular: true
     },
     {
-      name: "SlayElite",
-      price: "$100K+",
-      duration: "Custom",
+      name: "Enterprise Solution",
+      price: "$75,000",
+      duration: "6-8 weeks",
       features: [
-        "Everything in SlayCore",
-        "Bespoke feature development",
-        "Enterprise-grade integrations",
-        "Dedicated development team",
-        "Weekly progress meetings",
-        "Priority support",
-        "Custom architecture & tech stack",
-        "Flexible payment terms"
+        "Everything in Growth Platform",
+        "Multi-tenant architecture for enterprise sales",
+        "Advanced integrations (CRM, ERP, SSO)",
+        "Custom reporting & business intelligence",
+        "Dedicated senior development team",
+        "Weekly strategy sessions",
+        "White-label capabilities",
+        "90-day unlimited support"
       ],
       notIncluded: [],
-      cta: "Let's Talk",
+      cta: "Build Enterprise",
       popular: false
     }
   ];

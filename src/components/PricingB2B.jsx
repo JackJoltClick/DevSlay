@@ -4,66 +4,67 @@ import { Check, ArrowRight, Shield, Users, Zap } from 'lucide-react';
 const PricingB2B = () => {
   const packages = [
     {
-      name: "MVP Sprint",
-      subtitle: "Get to market fast",
+      name: "Validation MVP",
+      subtitle: "Start collecting revenue Day 1",
       price: "$15,000",
       duration: "10 days",
-      description: "Everything you need to validate your idea with real users.",
+      description: "Everything needed to validate your idea AND start monetizing immediately.",
       features: [
         "Custom-coded full-stack application",
+        "Payment processing (Stripe) - start charging customers",
+        "User authentication & account management",
+        "Basic admin dashboard - manage your users",
         "Latest tech stack (React, Node.js, PostgreSQL)",
-        "Core features implementation",
-        "Secure user authentication",
-        "Professional database design",
-        "Cloud deployment (no shared hosting)",
+        "Professional cloud deployment",
         "Complete source code & documentation",
-        "30 days of bug fixes"
+        "30 days of support"
       ],
-      included: "Initial project consultation",
-      cta: "Start Building",
+      included: "Business model consultation - how to monetize",
+      cta: "Start Monetizing",
       icon: <Zap className="text-blue-600" size={24} />,
       popular: false
     },
     {
-      name: "Launch Ready",
-      subtitle: "Everything to start selling",
+      name: "Investor Ready",
+      subtitle: "Show traction to raise capital",
       price: "$30,000",
       duration: "14 days",
-      description: "Production-ready application with payment processing and admin tools.",
+      description: "Professional platform that demonstrates growth potential to investors.",
       features: [
-        "Everything in MVP Sprint",
-        "Custom payment processing (Stripe)",
-        "Tailored admin dashboard",
-        "RESTful API development",
+        "Everything in Validation MVP",
+        "Advanced analytics dashboard - track key metrics",
+        "User onboarding flows - improve conversion",
+        "Email automation & notifications",
+        "RESTful API for future integrations",
+        "Performance optimization for scale",
         "Professional CI/CD pipeline",
-        "Performance optimization & testing",
-        "60 days of support & iterations"
+        "60 days of support & feature additions"
       ],
-      included: "Launch strategy session",
-      cta: "Go to Market",
+      included: "Investor deck technical slides + metrics setup",
+      cta: "Build for Scale",
       icon: <Users className="text-green-600" size={24} />,
       popular: true,
-      badge: "MOST POPULAR"
+      badge: "MOST CHOSEN"
     },
     {
-      name: "Full Build",
-      subtitle: "Complex custom solutions",
-      price: "$100K+",
-      duration: "3-6 months",
-      description: "Custom development for complex requirements and scale.",
+      name: "Enterprise Platform",
+      subtitle: "Category-defining product",
+      price: "$75,000",
+      duration: "6-8 weeks",
+      description: "Sophisticated platform built for enterprise customers and complex workflows.",
       features: [
-        "Everything in Launch Ready",
-        "Bespoke feature development",
-        "Enterprise-grade architecture",
-        "Dedicated development team",
-        "Weekly planning sessions",
-        "Priority support",
-        "Complex third-party integrations",
-        "Ongoing development cycles",
-        "Flexible payment options"
+        "Everything in Investor Ready",
+        "Multi-tenant architecture for enterprise sales",
+        "Advanced integrations (CRM, ERP, SSO)",
+        "Custom reporting & business intelligence",
+        "White-label capabilities",
+        "Dedicated senior development team",
+        "Weekly strategy & planning sessions",
+        "90 days of unlimited iterations",
+        "Technical due diligence preparation"
       ],
-      included: "Technical roadmap & architecture planning",
-      cta: "Discuss Your Project",
+      included: "CTO advisory services + enterprise sales enablement",
+      cta: "Build Enterprise",
       icon: <Shield className="text-purple-600" size={24} />,
       popular: false
     }
@@ -73,10 +74,10 @@ const PricingB2B = () => {
     <section id="investment" className="py-12 sm:py-16 md:py-20 bg-white">
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto text-center mb-12 sm:mb-16">
-          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 sm:mb-6 px-2">Quality Development, Delivered Fast</h2>
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 sm:mb-6 px-2">From Idea to Revenue in Days, Not Months</h2>
           <p className="text-lg sm:text-xl text-gray-600 px-2">
-            Senior engineers using AI to deliver custom-coded applications in 10 days.
-            <span className="font-semibold text-gray-900"> No templates. No no-code. Just professional development.</span>
+            Each package builds your business, not just your product. Start monetizing immediately, scale when ready.
+            <span className="font-semibold text-gray-900"> Every tier includes revenue capability.</span>
           </p>
         </div>
 
@@ -138,22 +139,22 @@ const PricingB2B = () => {
 
         {/* Value Props */}
         <div className="bg-blue-50 rounded-xl p-6 sm:p-8 max-w-4xl mx-auto mb-12">
-          <h3 className="text-lg sm:text-xl font-semibold text-center mb-6 px-2">How We Deliver Quality in 10 Days</h3>
+          <h3 className="text-lg sm:text-xl font-semibold text-center mb-6 px-2">Why Smart Founders Choose DevSlay</h3>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             <div className="text-center">
-              <p className="text-3xl font-bold text-blue-600 mb-2">AI + Human</p>
-              <p className="text-sm text-gray-700">AI handles repetitive tasks</p>
-              <p className="text-xs text-gray-500 mt-1">Engineers ensure quality</p>
+              <p className="text-3xl font-bold text-blue-600 mb-2">Revenue Ready</p>
+              <p className="text-sm text-gray-700">Every package includes monetization</p>
+              <p className="text-xs text-gray-500 mt-1">Start charging customers immediately</p>
             </div>
             <div className="text-center">
-              <p className="text-3xl font-bold text-blue-600 mb-2">Proven Stack</p>
-              <p className="text-sm text-gray-700">Latest tech stack, custom coded</p>
-              <p className="text-xs text-gray-500 mt-1">No templates or no-code tools</p>
+              <p className="text-3xl font-bold text-blue-600 mb-2">Investor Approved</p>
+              <p className="text-sm text-gray-700">Professional code & architecture</p>
+              <p className="text-xs text-gray-500 mt-1">Pass technical due diligence</p>
             </div>
             <div className="text-center">
-              <p className="text-3xl font-bold text-blue-600 mb-2">Clear Scope</p>
-              <p className="text-sm text-gray-700">Focused on core features</p>
-              <p className="text-xs text-gray-500 mt-1">No feature creep</p>
+              <p className="text-3xl font-bold text-blue-600 mb-2">Scale Without Rebuild</p>
+              <p className="text-sm text-gray-700">Built for growth from day one</p>
+              <p className="text-xs text-gray-500 mt-1">Add features, don't start over</p>
             </div>
           </div>
         </div>
