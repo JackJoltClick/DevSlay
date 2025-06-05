@@ -117,7 +117,7 @@ const TeamCredibility = () => {
                 <div>
                   <TrendingUp className="text-purple-400 mx-auto mb-4" size={32} />
                   <h4 className="font-semibold mb-2">Speed Without Compromise</h4>
-                  <p className="text-gray-300 text-sm">8-day delivery doesn't mean cutting corners—it means eliminating inefficiencies</p>
+                  <p className="text-gray-300 text-sm">10-day delivery doesn't mean cutting corners—it means eliminating inefficiencies</p>
                 </div>
               </div>
             </div>

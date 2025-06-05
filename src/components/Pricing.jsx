@@ -4,50 +4,57 @@ const Pricing = () => {
   const packages = [
     {
       name: "SlayLite",
-      price: "$12,000",
+      price: "$15,000",
       duration: "10 days",
       features: [
         "Full-stack SaaS MVP",
-        "AI-powered development",
-        "Senior engineer oversight",
-        "Basic deployment setup",
-        "Source code ownership",
-        "30-day bug support"
+        "AI-powered development by GPT-4 & Anthropic agents",
+        "Senior engineer oversight & quality assurance",
+        "Professional deployment setup",
+        "Complete source code ownership",
+        "GitHub repository with documentation",
+        "45-day bug support & minor iterations"
       ],
-      notIncluded: ["Extended maintenance", "Marketing assets"],
+      notIncluded: ["Advanced integrations", "Custom AI training"],
       cta: "Start Your MVP",
       popular: false
     },
     {
       name: "SlayCore",
-      price: "$18,000",
-      duration: "12 days",
+      price: "$30,000",
+      duration: "14 days",
       features: [
         "Everything in SlayLite",
-        "Production-grade architecture",
-        "Authentication & payments",
-        "Admin dashboard",
-        "CI/CD pipeline setup",
-        "60-day support & iterations"
+        "Enterprise-grade architecture & scalability",
+        "Advanced authentication & payment processing",
+        "Custom admin dashboard with analytics",
+        "Professional CI/CD pipeline & DevOps setup",
+        "API development for third-party integrations",
+        "Performance optimization & load testing",
+        "90-day support with unlimited iterations",
+        "Technical strategy & growth consultation"
       ],
-      notIncluded: ["Custom integrations beyond core"],
-      cta: "Ship Faster",
+      notIncluded: ["Ongoing development beyond 90 days"],
+      cta: "Scale Smart",
       popular: true
     },
     {
-      name: "SlayTurbo",
-      price: "Custom",
-      duration: "Ongoing",
+      name: "SlayElite",
+      price: "$100K+",
+      duration: "Custom",
       features: [
         "Everything in SlayCore",
-        "Custom AI agent training",
-        "Enterprise integrations",
-        "Performance optimization",
-        "Dedicated team allocation",
-        "Priority support channel"
+        "Bespoke AI agent development & training",
+        "Complex enterprise system integrations",
+        "Dedicated team of senior engineers",
+        "Weekly executive strategy sessions",
+        "24/7 priority support with SLA",
+        "Custom architecture for specific needs",
+        "Ongoing partnership & technical leadership",
+        "Equity-friendly payment options available"
       ],
       notIncluded: [],
-      cta: "Let's Talk",
+      cta: "Schedule Executive Briefing",
       popular: false
     }
   ];
